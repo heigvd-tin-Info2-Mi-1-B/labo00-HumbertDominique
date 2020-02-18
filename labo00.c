@@ -26,7 +26,7 @@ int main(void)
     char saisie[50] = { '\0' }; 
 
 //------------------------ Compteurs ------------------------
-    short compteur = 1, position = -1;
+    int8_t compteur = 1, position = -1;
 
 //------------------------ Programme ------------------------
     printf("Saisir des arguments (max 50 caracteres):\n");
